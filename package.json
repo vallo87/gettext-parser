@@ -1,17 +1,20 @@
 {
   "name": "gettext-parser",
   "description": "Parse and compile gettext po and mo files to/from json, nothing more, nothing less",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "author": "Andris Reinman",
   "contributors": [
+    {
+      "name": "Valerio Mazza Iacomino"
+    },
     {
       "name": "Sam Hauglustaine"
     }
   ],
-  "homepage": "http://github.com/smhg/gettext-parser",
+  "homepage": "http://github.com/vallo87/gettext-parser",
   "repository": {
     "type": "git",
-    "url": "http://github.com/smhg/gettext-parser.git"
+    "url": "http://github.com/vallo87/gettext-parser.git"
   },
   "scripts": {
     "lint": "eslint lib/*.js test/*.js index.js",
